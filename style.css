@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    box-sizing: border-box; 
+    /* for preceise heigt and padding */
+}
+body{
+    margin:20px;
+    font-family: "Roboto", Arial, Helvetica, sans-serif;
+    
+
+}
+header{
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    top: 10px;
+    left: 10px;
+    right: 10px;
+}
+
+.headerimg{
+    width: 30px;
+}
+
+.yt-logo{
+    width: 100px;
+}
+
+.left-side{
+    width: 150px;
+    display: flex;
+    justify-content: space-between;
+    flex-shrink: 0;
+    
+}
+
+.middle-side input{
+    height: 40px;
+    width: 0px;
+    flex: 1;
+    padding: 10px;
+    font-size: 18px;
+    box-shadow: inset 1px 1px 3px grey;
+    border: 1px solid grey;
+    
+    
+}
+.middle-side input:focus{
+    border: 1px solid rgb(132, 132, 168);
+    outline: none;
+}
+
+.middle-side input::placeholder{
+font-size: 18px;
+}
+
+.middle-side .search-button{
+    border: 1px solid grey;
+    height: 40px;
+    padding: 5px;
+}
+
+.middle-side .search{
+    margin-left: -1px;
+}
+
+.search,.voice-search{
+    height: 40px;
+}
+
+.upload,.app,.notification,.profile{
+    height: 40px;
+}
+
+.mic-button{
+    width: 40px;
+    margin-left: 20px;
+    height: 40px;
+    padding: 2px;
+    border-radius: 20px;
+    border: none;
+}
+
+.middle-side{
+    display: flex;
+    align-items: center;
+    max-width: 470px;
+    flex: 1;
+    margin: 0px 30px;
+}
+
+.profilePic{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.right-side{
+    width: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-shrink: 0;
+}
+
