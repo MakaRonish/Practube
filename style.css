@@ -49,12 +49,14 @@ header{
     font-size: 18px;
     box-shadow: inset 0px 1px 3px grey;
     border: 1px solid grey;
+    border-radius: 20px 0px  0px 20px;
     
     
 }
 .middle-side input:focus{
     border: 1px solid rgb(132, 132, 168);
     outline: none;
+    
 }
 
 .middle-side input::placeholder{
@@ -65,6 +67,7 @@ font-size: 18px;
     border: 1px solid grey;
     height: 40px;
     padding: 5px;
+    border-radius: 0px 20px 20px 0px;
 }
 
 .middle-side .search{
@@ -167,6 +170,7 @@ font-size: 18px;
     display: inline-block;
     vertical-align: top;
     
+    
 }
 
 .ChannelImg{
@@ -177,8 +181,9 @@ font-size: 18px;
 }
 
 .video-title{
-    width: 250px;
+    width: 100%;
     display: inline-block;
+    
 }
 .video-title p:first-child{
     font-weight: 500;
@@ -194,11 +199,12 @@ font-size: 18px;
 
 }
 .video-description{
-    width: 250px;
+    width: 100%;
     display: grid;
-    grid-template-columns: 50px 200px;
-    gap: 10px;
+    grid-template-columns: 20% 78%;
+    gap: 2%;
     padding: 5px;
+    
 }
 
 
@@ -231,7 +237,7 @@ font-size: 18px;
         width: 100%;
     }
     .video-title{
-        width: 455px;
+        width: 100%;
         display: inline-block;
     
 }
